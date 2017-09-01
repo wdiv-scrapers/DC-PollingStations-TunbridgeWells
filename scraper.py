@@ -1,8 +1,8 @@
 from dc_base_scrapers.geojson_scraper import GeoJsonScraper
 
 
-stations_url = "http://opendata-tunbridgewells.opendata.arcgis.com/datasets/7175dd3565a94630b62008a4e2acf830_6.geojson"
-districts_url = "http://opendata-tunbridgewells.opendata.arcgis.com/datasets/469b4be3d38849d2b867ae9514a06842_5.geojson"
+stations_url = "http://opendata-tunbridgewells.opendata.arcgis.com/datasets/feb0be539f0c4c3b97bcaf812f930282_6.geojson"
+districts_url = "http://opendata-tunbridgewells.opendata.arcgis.com/datasets/3eeae54e88894e6ba65f6451c8e417f1_5.geojson"
 council_id = 'E07000116'
 
 
