@@ -12,7 +12,7 @@ def get_dataset_id(search_url):
         return search_data['data'][0]['id']
 
 
-stations_search_url = "https://opendata.arcgis.com/api/v2/datasets?filter%5Bcatalogs%5D=opendatanew-tunbridgewells.opendata.arcgis.com&include=organizations%2Cgroups&page%5Bnumber%5D=1&page%5Bsize%5D=10&q=polling+stations"
+stations_search_url = "https://opendata.arcgis.com/api/v2/datasets?filter%5Bcatalogs%5D=opendatanew-tunbridgewells.opendata.arcgis.com&include=organizations%2Cgroups&page%5Bnumber%5D=1&page%5Bsize%5D=10&q=polling+AND+stations"
 districts_search_url = "https://opendata.arcgis.com/api/v2/datasets?filter%5Bcatalogs%5D=opendatanew-tunbridgewells.opendata.arcgis.com&include=organizations%2Cgroups&page%5Bnumber%5D=1&page%5Bsize%5D=10&q=polling+districts"
 stations_base_url = "http://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/%s.geojson"
 districts_base_url = "http://opendatanew-tunbridgewells.opendata.arcgis.com/datasets/%s.geojson"
